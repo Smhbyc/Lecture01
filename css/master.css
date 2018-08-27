@@ -59,17 +59,17 @@ p {
 }
 
 .pimg1 {
-    background-image: url("img/water1.jpg");
+    background-image: url("../img/water1.jpg");
     min-height: 100%;
 }
 
 .pimg2 {
-    background-image: url("img/computer.jpeg");
+    background-image: url("../img/computer.jpeg");
     min-height: 400px;
 }
 
 .pimg3 {
-    background-image: url("img/travel.jpeg");
+    background-image: url("../img/travel.jpeg");
     min-height: 400px;
 }
 
