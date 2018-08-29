@@ -9,7 +9,7 @@
 }
 .nav-bar{
     height: 100%;
-    width: 10%;
+    width: 5%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -24,20 +24,28 @@ div ul li a {
     color: #818181;
 }
 
-.na-bar a:hover {
+.nav-bar a:hover {
     color: #f1f1f1;
 }
 
+div ul {
+  vertical-align: middle;
+}
+
 div ul li {
-    margin: 5px;
+    margin: 85% 5px;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
 
 }
 
 .content {
-    margin-left: 10%; /* Same as the width of the sidenav */
+    margin-left: 5%; /* Same as the width of the sidenav */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 0px;
-    width: 90%;
+    width: 95%;
     z-index: 1;
     top: 0;
     right: 0;
@@ -107,4 +115,4 @@ p {
 .ptext .border {
     background-color: #111;
     color: white;
-    padding: 10px;
+    padding: 2px;
